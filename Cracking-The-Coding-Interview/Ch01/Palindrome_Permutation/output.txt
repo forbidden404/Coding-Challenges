@@ -1,0 +1,4 @@
+Tact Coa is a palindrome permutation
+Bannaa is not a palindrome permutation
+Francisco is not a palindrome permutation
+NanA is a palindrome permutation
