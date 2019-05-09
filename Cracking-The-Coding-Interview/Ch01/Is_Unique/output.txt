@@ -1,0 +1,6 @@
+abcd is unique
+abc is unique
+defghj is unique
+defghjad is not unique
+francisco is not unique
+john is unique
