@@ -1,0 +1,6 @@
+abcd and dbca are permutation
+abc and abb are not permutation
+defghj and ghjdef are permutation
+defghjad and abcdh are not permutation
+francisco and coisncraf are permutation
+john and jonh are permutation
