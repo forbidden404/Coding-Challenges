@@ -62,7 +62,7 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         cur_2 = cur_2->next;
     }
 
-    // After doing the process of adding digit by digit, there might be elements left in l1 or l2 that were not process if they don't have the same size
+    // After doing the process of adding digit by digit, there might be elements left in l1 or l2 that were not processed if they don't have the same size
     while (cur_1 != nullptr) {
         int value = cur_1->val + carry;
         if (value >= 10) carry = 1;
