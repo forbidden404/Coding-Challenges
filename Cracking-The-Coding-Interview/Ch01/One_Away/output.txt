@@ -1,0 +1,4 @@
+pale and ple are one (or zero) edit away.
+pales and pale are one (or zero) edit away.
+pale and bale are one (or zero) edit away.
+pale and bake are not one (or zero) edit away.
