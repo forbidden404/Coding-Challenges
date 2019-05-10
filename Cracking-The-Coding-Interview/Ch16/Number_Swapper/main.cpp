@@ -2,11 +2,19 @@
 
 using namespace std;
 
+// It is possible to answer this question with addition and subtraction, but that could lead to integer overflow.
+// A better way to do it for integers is to use the logical XOR operator
 void numberSwapper(int& a, int& b) {
     a ^= b;
     b ^= a;
     a ^= b;
 }
+
+// Example:
+// a = 2 => 0010, b = 3 => 0011
+// a = 0010 ^ 0011 = 0001 = 1
+// b = 0011 ^ 0001 = 0010 = 2
+// a = 0001 ^ 0010 = 0011 = 3
 
 int main() {
     // Read input
