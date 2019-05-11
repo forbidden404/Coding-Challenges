@@ -9,20 +9,17 @@ int main() {
         int stores;
         cin >> stores;
 
-        vector<int> arr;
+        int left = 1e9;
+        int right = -1;
         while (stores--) {
             int store;
             cin >> store;
-            arr.push_back(store);
+            left = min(left, store);
+            right = max(right, store);
         }
-        sort(arr.begin(), arr.end());
 
-        int total = 0;
-        for (int i = arr.size() - 1; i >= 1; i--) {
-            total += (arr[i] - arr[i-1]);
-        }
-        total += (arr[arr.size() - 1] - arr[0]);
-        cout << total << endl;
+        cout << 2 * (right - left) << endl;
+
 	}
 	return 0;
 }
