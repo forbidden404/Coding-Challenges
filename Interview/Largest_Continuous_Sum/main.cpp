@@ -3,6 +3,11 @@
 
 using namespace std;
 
+// In this question we just need to keep track of the current better sum,
+// and our previous maximum sum. Updating the current sum happens when we
+// check a new element and we see if the element by itself is bigger than
+// the actual element plus the current sum. This would happen if the current
+// sum is negative and the current element is bigger than this sum.
 int largestContinuousSum(vector<int>& v) {
     if (v.empty()) return 0;
     
