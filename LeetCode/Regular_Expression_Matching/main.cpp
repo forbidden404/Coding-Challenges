@@ -15,10 +15,10 @@ using namespace std;
 // the substring of string s starting from i matches the substring of pattern p starting from j.
 // If we keep track if both match or not, we can avoid repeating matching checks in our recursion.
 // That way we could introduce a Hash Table with the key being (i, j) and if they match or not.
-// Going to a bottom-up approach, we now that the substring that starts at the end of s matches
+// Going to a bottom-up approach, we know that the substring that starts at the end of s matches
 // the substring that starts at the end of p, since both are the empty string, and from there we can
-// start building up our array of boolean values. First we check if the s[i] matches with [j], or
-// if p[j] is '.', it will match with any character. Then we define our dp[i][j] as this match and
+// start building up our array of boolean values. First we check if the s[i] matches with p[j], or
+// if p[j] is '.', since it will match with any character. Then we define our dp[i][j] as this match and
 // the match of the subsequent substring from s and p, since we have matched i and j, now we are checking
 // the next characters in line. But if this is a * pattern, which means the first letter after j is *,
 // we need to do what we did previously in our recursive answer, check if ignoring the pattern is a match,
