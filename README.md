@@ -1,6 +1,6 @@
 # Coding Challenges
 
-Coding Challenges is a repository where I be keeping track of the coding questions I do or the concepts I learn, or have learned already. The main motivation of creating this repo is to gather all the code that has been spread throughout my folders that serve the same purpose.
+Coding Challenges is a repository where I will be keeping track of the coding questions I do or the concepts I learn, or have learned already. The main motivation of creating this repo is to gather all the code that has been spread throughout my folders that serve the same purpose.
 
 ## Getting Started
 
