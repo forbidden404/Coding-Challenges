@@ -1,0 +1,1 @@
+Pull Requests and Issues will be mostly used for discussions around the subject. I won't be accepting any Pull Requests of questions I haven't done myself, but feel free to recomend questions as Issues.
